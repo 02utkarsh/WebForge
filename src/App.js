@@ -1,6 +1,6 @@
 import './App.css';
 import './index.css';
-import { Routes,Route, Navigate, useNavigate } from 'react-router-dom';
+import { Routes,Route, useNavigate } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { useEffect, useState } from 'react';
 import { auth,db } from './config/firebase.config';
@@ -10,7 +10,7 @@ import { useDispatch } from 'react-redux';
 import { SET_USER } from './context/actions/userActions';
 import Newproject from './pages/Newproject' ;
 import { SET_PROJECTS } from './context/actions/projectAction';
-import Openproject from './pages/Openproject';
+// import Openproject from './pages/Openproject';
 import Newprojectsmake from './pages/Newprojectsmake';
 import Loadpage from './pages/Loadpage';
 function App() {

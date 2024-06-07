@@ -1,4 +1,4 @@
-import { FaGithub } from "react-icons/fa";
+// import { FaGithub } from "react-icons/fa";
 import { LiaGithub } from "react-icons/lia";
 import { FcGoogle } from "react-icons/fc";
 import React, { useState } from 'react'

@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaBookmark } from "react-icons/fa6";
-import { Link, Navigate, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { MdDelete } from "react-icons/md";
 import { doc,deleteDoc } from 'firebase/firestore';
 import { db } from '../config/firebase.config';
@@ -26,7 +26,7 @@ const Projectcard = ({project,index}) => {
         <div className=' flex items-center justify-between gap-3 w-full p-1'>
         <div className=' w-8 h-8 flex center items-center justify-center rounded-xl overflow-hidden'>
             {project?.user?.photoURL?(
-              <img src={project?.user?.photoURL}  className='w-full h-full object-cover'/>
+              <img src={project?.user?.photoURL} alt='img here' className='w-full h-full object-cover'/>
                 ):(
                 <p>
                     {project?.user?.email[0]}

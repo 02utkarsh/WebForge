@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 import Projectcard from '../components/Projectcard';
-import { Link, Navigate } from 'react-router-dom';
+// import { Link, Navigate } from 'react-router-dom';
 
 export const Projects = () => {
   const projects=useSelector((state)=>state.projects?.projects);

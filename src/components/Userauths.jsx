@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { GoEyeClosed } from "react-icons/go";
 import { MdEmail } from "react-icons/md";
 import { RiLockPasswordFill } from "react-icons/ri";
